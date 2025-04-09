@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "teacher1@gmail.com",
+            "password": "1234",
+            "role": "teacher"
+        },
+        {
+            "id": 2,
+            "username": "std1@gmail.com",
+            "password": "1234",
+            "role": "student"
+        },
+        {
+            "id": 3,
+            "username": "std2@gmail.com",
+            "password": "1234",
+            "role": "student"
+        },
+        {
+            "id": 4,
+            "username": "ad@gmail.com",
+            "password": "1234",
+            "role": "admin"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "course_name": "Computer Graphics",
+            "teacher_id": 1
+        }
+    ],
+    "enrollments": [
+        {
+            "course_id": "1",
+            "student_id": 2
+        }
+    ]
+}
